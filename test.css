@@ -1,0 +1,11 @@
+.container {
+	display: flex;
+	/*flex-direction: row-reverse;*/
+	flex-warp: wrap;
+	height: 55em;
+}
+.item {
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: 20em;
+}

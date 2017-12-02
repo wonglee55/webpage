@@ -1,0 +1,31 @@
+<html>
+	<head>
+
+		<title>Question</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/font.css">
+		<link rel="stylesheet" type="text/css" href="css/congrats.css">
+		<link rel="stylesheet" type="text/css" href="css/grid.css">
+	</head>
+	<body>
+		<script src="js/resposiveMenu.js"></script>
+		<nav id="Navigation" class="large">
+
+			<img src="img/hambicon.png" onclick="navChange()">
+			<a href="index.html">Home</a>
+			<a href="morepokemons.html">More info</a>
+			<a href="quiz.html">Quiz</a>
+			<a href="aboutMe.html">About Me</a>
+		</nav>
+
+		<h1 id="namePlz"> Congratulations </h1>
+		<h2> have a magickarp </h2>
+		<img src="img/moving.gif">
+		<script>
+		var url = document.location.href.split('?')[1].split('=')[1]
+		document.getElementById("namePlz").innerHTML += url
+		</script>
+
+	</body>
+</html>

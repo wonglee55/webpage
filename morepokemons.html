@@ -1,0 +1,120 @@
+<html>
+<head>
+	<title>Page 2</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/font.css">
+		<link rel="stylesheet" type="text/css" href="css/page2.css">
+		<link rel="stylesheet" type="text/css"
+		href="css/grid.css">
+</head>
+<body>
+	<script src="js/resposiveMenu.js"></script>
+		<nav id="Navigation" class="large">
+
+			<img src="img/hambicon.png" onclick="navChange()">
+			<a href="index.html">Home</a>
+			<a href="morepokemons.html">More info</a>
+			<a href="quiz.html">Quiz</a>
+			<a href="aboutMe.html">About Me</a>
+		</nav>
+<br><br><br><br><br>
+	<!-- <div class="banner"> <a href="page1.html">back to page 1</a> </div> -->
+
+
+	<div class="large2" id="blackScreen">
+		<h3 onclick="minimize()"> X </h3>
+		<div class="large2" id="p1">
+			<h4>Pikachu</h4>
+			<p> You have chosen pikachu, he really hates you and will try to leave your party </p> 
+			<img src="img/Pika1.png">
+		</div>
+		<div class="large2" id="p2">
+			<h4>Charmander</h4>
+			<p> You have chosen Charmander, he will become your loyal companion that never will betray you </p>
+			<p>
+				Charmander is a bipedal, reptilian Pokémon with a primarily orange body. Its underside from the chest down and soles are cream-colored. It has two small fangs visible in its upper jaw and two smaller fangs in its lower jaw. Charmander has blue eyes. Its arms and legs are short with four fingers and three clawed toes. A fire burns at the tip of this Pokémon's slender tail, and has blazed there since Charmander's birth. The flame can be used as an indication of Charmander's health and mood, burning brightly when the Pokémon is strong, weakly when it is exhausted, wavering when it is happy, and blazing when it is enraged. It is said that Charmander dies if its flame goes out. However, if the Pokémon is healthy, the flame will continue to burn if gets a bit wet and is said to steam in the rain.
+			</p>
+			<img src="img/Charmander.png"> 
+		</div>
+
+<div class="large2" id="p3">
+			<h4>Squirtle</h4>
+			<p> You have chosen Squirtle, he can swim, sweet!</p> 
+			<img src="img/Squirtle.png">
+		</div>
+
+<div class="large2" id="p4">
+			<h4>Bulbasaur</h4>
+			<p> You have chosen Bulbasaur, How could you, who chooses him anyways. </p> 
+			<img src="img/bulbasaur.png">
+		</div>
+
+	</div>
+	<div class="grid-row">
+		<div class="grid-col-1of2">
+	<h2> Possible Starting pokemons </h2>
+	<div class="box"> 
+	  <img onclick="fullScreen1()"class="block"id="l1"src="img/Pika1.png">
+	  <img onclick="fullScreen2()"class="large2"id="l2"src= "img/Charmander.png">
+	  <img onclick="fullScreen3()" class="large2"id="l3"src= "img/Squirtle.png">
+	  <img onclick="fullScreen4()" class="large2"id="l4"src= "img/bulbasaur.png">
+	</div>
+	<img onmouseover="pika()"class="small1" src="img/Pika1.png"> </img>
+	<img onmouseover="charmander()"class="small1" src="img/Charmander.png"></img>
+	<img onmouseover="squirtle()"class="small1" src="img/Squirtle.png"></img>
+	<img onmouseover="bulbasaur()"class="small1" src="img/bulbasaur.png"></img>
+</div>
+	<script type="text/javascript" src="js/hoverOver.js"></script>
+
+	<br>
+	<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="grid-col-1of2">
+	<h2> Here are more pokemons </h2>
+
+	<img class="banner" src="img/moving.gif" alt="splash">
+	<img class="banner" src="img/PImages/75.png" alt="splash">
+	<img class="banner" src="img/PImages/76.png" alt="splash">
+	<img class="banner" src="img/PImages/77.png" alt="splash">
+	<img class="banner" src="img/PImages/78.png" alt="splash">
+	<img class="banner" src="img/PImages/79.png" alt="splash">
+	<img class="banner" src="img/PImages/80.png" alt="splash">
+	<img class="banner" src="img/PImages/81.png" alt="splash">
+	<img class="banner" src="img/PImages/82.png" alt="splash">
+	<img class="banner" src="img/PImages/83.png" alt="splash">
+	<img class="banner" src="img/PImages/84.png" alt="splash">
+	<img class="banner" src="img/PImages/85.png" alt="splash">
+	<div onclick="slide(-1)" id="previous">
+			<img src="img/previous-button.png">
+		</div>
+		<div onclick="slide(1)" id="next">
+			<img src="img/next-button.png">
+		</div>
+</div>
+</div>
+	<section id="footer">
+			<p> Email: abc@d.com</p>
+			<p> Phone: 604-911-1119 </p>
+		</section>
+	<script src="js/slideshow.js"></script>
+	<script src="js/navigation.js"></script>
+</body>
+
+</html>

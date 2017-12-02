@@ -1,1 +1,151 @@
-<h1> Hello </h1>
+<!doctype html>
+<html lang='en'>
+	<head>
+		<title>WELCOME</title>
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/font.css">
+				<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/grid.css">
+	</head>
+	<body>
+		<script src="js/resposiveMenu.js"></script>
+		<nav id="Navigation" class="large">
+
+			<img src="img/hambicon.png" onclick="navChange()">
+			<a href="index.html">Home</a>
+			<a href="morepokemons.html">More info</a>
+			<a href="quiz.html">Quiz</a>
+			<a href="aboutMe.html">About Me</a>
+
+
+		</nav>
+		<div id="top">
+		</div>
+		<div class="banner overflow">
+			 <img width="100%" height="300px"src="img/banner.jpg">
+		</div>
+		<div class="banner overflow">
+			<img width ="100%" height="300px" src="img/banner2.png">
+		</div>
+		<div class="banner overflow">
+			<img width = "100%" height="300px" src="img/banner3.jpg">
+		</div>
+		<div onclick="slide(-1)" id="previous">
+			<img src="img/previous-button.png">
+		</div>
+		<div onclick="slide(1)" id="next">
+			<img src="img/next-button.png">
+		</div>
+
+
+		<h1> Pokemon <img width= "50"src="img/PokeBall.png"></h1>
+		<h2> Gotta Catch Them all </h2>
+		<h3> Table of contents</h3>
+		<button onclick="popup()">Click me </button><br>
+
+		<!-- <a onclick="introButton">Introduction</a><br> -->
+		<a href="#images">Images</a><br>
+		<a href="#wikipage">Wiki</a><br>
+<!-- Intro to website -->
+<div class="grid-row">
+	<div class="grid-col-1of3">
+		<section id="intro">
+			<p> find out more <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon"> here </a> </p>
+			<p>Pokémon (Japanese: ポケモン Hepburn: Pokemon, Japanese pronunciation: [po̞.ke̞.mo̞ɴ]; English: /ˈpoʊkeɪˌmɒn/ POH-kay-mon or /ˈpoʊkɪˌmɒn/ POH-ki-mon)[1][2] is a media franchise managed by The Pokémon Company, a Japanese consortium between Nintendo, Game Freak, and Creatures.[3] The franchise copyright is shared by all three companies, but Nintendo is the sole owner of the trademark.[4] The franchise was created by Satoshi Tajiri in <strong>1995</strong>,[5] and is centered on fictional creatures called "Pokémon", which humans, known as Pokémon Trainers, catch and train to battle each other for sport.
+			<br>
+			The franchise began as a pair of video games for the original Game Boy that were developed by Game Freak and published by Nintendo. It now spans video games, trading card games, animated television shows and movies, comic books, and toys. Pokémon is the second best-selling video game franchise, behind only Nintendo's Mario franchise[6] and the highest-grossing media franchise of all time. The franchise is also represented in other Nintendo media, such as the Super Smash Bros. series.</p>
+		</section>
+</div>
+<div class="grid-col-2of3">
+		<!-- image of magickarp and link to google search -->
+		<section id="images">
+			<!-- group the images in different classes to stylize together-->
+			<div class="group">
+				<a href="https://www.google.ca/search?num=100&q=magikarp&oq=ma&gs_l=psy-ab.3.0.35i39k1l2j0i67k1l2.2871.4190.0.5237.4.3.1.0.0.0.249.319.1j0j1.3.0....0...1.1.64.psy-ab..0.4.782.6...461.HEO8IjO_n-o
+				"><img width="200" src="img/magickarp.png" alt="picture of magickarp"></a>
+				<img src="https://cdn.bulbagarden.net/upload/thumb/0/0d/025Pikachu.png/250px-025Pikachu.png">
+			</div>
+			<div class="group">
+				<img src="https://cdn.bulbagarden.net/upload/thumb/d/d6/052Meowth.png/250px-052Meowth.png">
+				<!-- add ?autoplay=1 to end of video to make it autoplay-->
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/xMk8wuw7nek" frameborder="0" allowfullscreen> </iframe>
+			</div>
+		</section>
+	</div>
+</div>
+<div class="grid-row">
+	<div class="grid-col-1of3">
+		<h3> Top 3 things about pokemon </h3>
+		<ol> 
+			<li>Its a <strong>game</strong></li>
+			<li>fun</li>
+			<li>addicting</li>
+		</ol>
+		<h3>Things to do in the game</h3>
+		<ul>
+			<li>run around</li>
+			<li><em>catch pokemon</em></li>
+			<li>surfing</li>
+			<li>fly</li>
+		</ul>
+
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Price</th>
+			</tr>
+			<tr>
+				<th>Pikachu</th>
+				<th>$500</th>
+
+			</tr>
+			<tr>
+				<th>Charmander</th>
+				<th>$300</th>
+			</tr>
+			<tr>
+				<th>Pidgy</th>
+				<th>FREE</th>
+			</tr>
+		</table>
+	</div>
+	<div class="grid-col-2of3">
+		<section id="wikipage">		
+			<iframe width="1000" height="500"src="https://en.wikipedia.org/wiki/Pok%C3%A9mon"></iframe>
+		</section>
+
+	</div>
+</div>
+<br>
+<br>
+<br>
+<a href="#top"> Back to top</a>
+<br>
+<br><br>
+<br>
+
+<br>
+<br>
+<br>
+		<section id="footer">
+			<p> Email: abc@d.com</p>
+			<p> Phone: 604-911-1119 </p>
+			
+
+		</section>
+
+		<script type="text/javascript">
+			function popup() {
+				alert("Congradulation you won $500!")
+			}
+
+		</script>
+		<script src="js/jquery.js"></script>
+		<script src="js/scrolling.js"></script>
+		<script src="js/slideshow.js"></script>
+		<script src="js/slideshowAuto.js"></script>
+		<script src="js/navigation.js"></script>
+		
+
+	</body>
+</html>

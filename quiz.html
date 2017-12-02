@@ -1,0 +1,110 @@
+<html>
+	<head>
+
+		<title>Question</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/font.css">
+		<link rel="stylesheet" type="text/css" href="css/page3.css">
+		<link rel="stylesheet" type="text/css" href="css/grid.css">
+	</head>
+	<body>
+		<div id="background1"> </div>
+		<div id="background2"> </div>
+		<div id="background3"> </div>
+		<script src="js/resposiveMenu.js"></script>
+		<nav id="Navigation" class="large">
+
+			<img src="img/hambicon.png" onclick="navChange()">
+			<a href="index.html">Home</a>
+			<a href="morepokemons.html">More info</a>
+			<a href="quiz.html">Quiz</a>
+			<a href="aboutMe.html">About Me</a>
+		</nav>
+		<div id="content">
+		<h1>Some questions regarding pokemon</h1>
+		<img src="img/pidgey.png">
+		<form>
+			<div class="grid-row">
+				<div class="grid-col-1of2">
+			<input id="name" type="text" placeholder="name"> <br>
+			<input id="age" type="number" placeholder="age"> <p class="red" id= "ageCheck"></p><br>
+			<input type="date" placeholder="birthday"> <br>
+			<input type="checkbox"> do you like pokemon? <br>
+			<h3>1. What was Ash starter Pokemon </h3>
+			<p class="red" id="1q"></p>
+			<input type="radio" name="question1" id="1a"> Pikachu <br>
+			<input type="radio"name="question1" id="1b"> Pidgey<br>
+			<input type="radio"name="question1" id="1c"> Mew <br>
+			<h3>2. Who wants to be the very best </h3>
+			<p class="red" id="2q"> </p>
+			<input type="radio" name="question2" id="2a"> No one <br>
+			<input type="radio" name="question2" id="2b"> Ash <br>
+			<input type="radio" name="question2" id="2c"> Red <br>
+			<input type="radio" name="question2" id="2d"> None of the above<br>
+			<h3>3. How can you get the bike in pokemon Ruby</h3>
+			<p class="red" id="3q"> </p>
+			<input type="checkbox" name="question3a" id="3a"> Stealing it<br>
+			<input type="checkbox" name="question3b" id="3b"> Buying it with lots of money <br>
+			<input type="checkbox" name="question3c" id="3c"> You get it from your mom<br>
+			<input type="checkbox" name="question3d" id="3d"> You get it for free<br>
+			<h3>4. How many pokemons are in the gen 1?
+				<br>
+				<p class="red" id="4q"></p>
+			<input type="number" min="0" id="4"> 
+			<br> 
+		</div>
+		<div class="grid-col-1of2">
+			<img src="img/magicKarp.png">
+			<h3>5. Where is ash from </h3>
+			<p class="red" id="5q"></p>
+			<select id="5" name="question5">
+				<option value="5a">Victory Road</option>
+				<option value="5b">Saffron City</option>
+				<option value="5c">Pallet Town </option>
+			</select> <br>
+			<h3>6. Where can you catch a magicKarp</h3>
+			<p class="red" id="6q"></p>
+			<input type="radio" name="question6" id="6a"> Victory Road<br>
+			<input type="radio" name="question6" id="6b"> Cinnabar Island<br>
+			<input type="radio" name="question6" id="6c"> Mt. Moon<br>
+			<input type="radio" name="question6" id="6d"> Caves<br>
+			<input type="radio" name="question6" id="6e">EVERYWHERE! <br>
+
+			<h3> 7. What Region is Pokemon Red </h3>
+			<p class="red" id="7q"></p>
+			<input type="text" id="7"> <br>
+
+			<h3> 8. Do you play Pokemon Go </h3>
+			<p class="red" id="8q"></p>
+			<input type="radio" name="question8" id="8a"> YES <br>
+			<input type="radio" name="question8" id="8b"> NO!! <br>
+			<input type="radio" name="question8" id="8c">Well i still have it on my phone, does that count?<br>
+			
+
+<br>
+<br>
+<br>
+<br>
+<br>
+	</div>
+</div>
+			<!-- <input type="button" value="submit"> -->
+		</form>
+		<button onclick="return checkAnswers()"> submit </button> 
+<script type="text/javascript" src="js/page3.js"></script>
+
+		</div>
+<section id="footer">
+			<p> Email: abc@d.com</p>
+			<p> Phone: 604-911-1119 </p>
+</section>
+<script src="js/jquery.js"></script>
+<script src="js/checkAge.js"></script>
+<script src="js/parallax.js"></script>
+<script src="js/navigation.js"></script>
+	</body>
+
+
+
+</html>
