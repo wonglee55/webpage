@@ -1,0 +1,33 @@
+.grid-row::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.grid-col-1of2 {
+	width:50%;
+	text-align: left;
+}
+.grid-col-1of3 {
+	width:33%;
+	text-align: left;
+}
+.grid-col-2of3 {
+	width:66%;
+	text-align: left;
+}
+
+[class*='col-'] {
+	float: left;
+}
+@media (max-width:65em) {
+	.grid-col-1of3 {
+		width: 100%;
+	}
+	.grid-col-2of3 {
+		width: 100%;
+	}
+	.grid-col-1of2 {
+		width: 100%;
+	}
+}
