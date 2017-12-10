@@ -1,7 +1,7 @@
 ## Welcome to Wonglee's Pages
 
-This is for YSA WD1
-
+**This is for YSA WD1** 
+IF YOU HAVE ANY QUESTIONS PLEASE FEEL FREE TO LEAVE A _COMMENT_
 You can use the [editor on GitHub](https://github.com/wonglee55/webpage/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
